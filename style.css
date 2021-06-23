@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+html {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+/**************
+     MAIN
+***************/
+
+#main {
+  background: #7292A1;
+  font-family: 'Open Sans', sans-serif;
+}
+
+img {
+  max-width: 65%;
+}
+
+
+/**************
+SECTION MAIN-IMG
+***************/
+
+#main-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title {
+  font-size: 3.6em;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90vw;
+  padding: 45px 0 45px 0;
+  background-color: #ECF1F4;
+}
+
+#img-caption {
+  padding-top: 45px;
+  max-width: 50%;
+  text-align: center;
+  font-size: 1.6em;
+}
+
+/**************
+SECTION TRIBUTE-INFO
+***************/
+
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 2.4em;
+}
+
+li {
+  font-size: 1.2em;
+  max-width: 30vw;
+  list-style: none;
+}
+
+.li-p {
+  font-size: 0.9em;
+}
+
+.story-li-bold {
+  font-size: 1.7rem;
+  text-weigth: 900;
+  color: #000000;
+}
+
+#tribute-link {
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+#tribute-link:hover {
+  transition: 0.5s;
+  color: pink;
+}
