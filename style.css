@@ -17,9 +17,10 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-/*img {
-  max-width: 65%;
-}*/
+  img {
+  max-width: 100%;
+  height: auto;
+}
 
 
 /**************
@@ -47,8 +48,7 @@ SECTION MAIN-IMG
 
 #img-caption {
   padding-top: 45px;
-  max-width: 100%;
-  height: auto;
+
   text-align: center;
   font-size: 1.6em;
 }
@@ -94,4 +94,24 @@ li {
 #tribute-link:hover {
   transition: 0.5s;
   color: #00FFCD;
+}
+
+/***********
+MEDIA QUERY
+************/
+
+@media (max-width: 768px) {
+  #title {
+    font-size: 4em;
+  }
+  .section-title {
+    font-size: 2.8em;
+  }
+  li {
+    font-size: 1.8em;
+    
+  }
+  #img-div {
+    width: 80vw;
+  }
 }
