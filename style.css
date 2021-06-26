@@ -17,9 +17,9 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-img {
+/*img {
   max-width: 65%;
-}
+}*/
 
 
 /**************
@@ -40,14 +40,15 @@ SECTION MAIN-IMG
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 90vw;
+  width: 60vw;
   padding: 45px 0 45px 0;
   background-color: #ECF1F4;
 }
 
 #img-caption {
   padding-top: 45px;
-  max-width: 50%;
+  max-width: 100%;
+  height: auto;
   text-align: center;
   font-size: 1.6em;
 }
@@ -70,24 +71,27 @@ li {
   font-size: 1.2em;
   max-width: 30vw;
   list-style: none;
+  padding-bottom: 10px;
 }
 
 .li-p {
   font-size: 0.9em;
+  color: #0F1A20;
 }
 
 .story-li-bold {
   font-size: 1.7rem;
-  text-weigth: 900;
+  font-weight: 900;
   color: #000000;
 }
 
 #tribute-link {
   font-size: 1.2em;
   text-decoration: none;
+  color: #0F1A20;
 }
 
 #tribute-link:hover {
   transition: 0.5s;
-  color: pink;
+  color: #00FFCD;
 }
