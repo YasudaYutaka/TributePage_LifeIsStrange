@@ -101,17 +101,32 @@ MEDIA QUERY
 ************/
 
 @media (max-width: 768px) {
-  #title {
-    font-size: 4em;
-  }
-  .section-title {
-    font-size: 2.8em;
-  }
-  li {
-    font-size: 1.8em;
-    
+  #img-caption {
+    font-size: 1.2em;
   }
   #img-div {
     width: 80vw;
+  }
+  li {
+    max-width: 80vw;
+  }
+}
+
+@media (max-width: 425px) {
+  #tribute-link {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 390px) {
+  #title {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 300px) {
+  #title {
+    font-size: 2.7em;
+    text-align: center;
   }
 }
