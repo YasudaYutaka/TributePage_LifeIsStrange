@@ -17,9 +17,18 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-  img {
+img {
   max-width: 100%;
   height: auto;
+}
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+  overflow: hidden;
 }
 
 
