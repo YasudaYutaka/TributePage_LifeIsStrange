@@ -107,8 +107,9 @@ li {
   color: #00FFCD;
 }
 
-#rewind-img {
+#butterfly-gif {
   width: 10vw;
+  margin-bottom: 10px;
 }
 
 /***********
@@ -128,7 +129,7 @@ MEDIA QUERY
   #logo-img {
     width: 80%;
   }
-  #rewind-img {
+  #butterfly-gif {
     width: 20vw;
   }
 }
@@ -140,13 +141,16 @@ MEDIA QUERY
   #logo-img {
     width: 80%;
   }
+  #butterfly-gif {
+    width: 30vw;
+  }
 }
 
 @media (max-width: 390px) {
   #title {
     font-size: 3em;
   }
-  #rewind-img {
+  #butterfly-gif {
     width: 30vw;
   }
 }
