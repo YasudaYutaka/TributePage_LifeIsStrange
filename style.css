@@ -119,11 +119,17 @@ MEDIA QUERY
   li {
     max-width: 80vw;
   }
+  #logo-img {
+    width: 80%;
+  }
 }
 
 @media (max-width: 425px) {
   #tribute-link {
     font-size: 1em;
+  }
+  #logo-img {
+    width: 80%;
   }
 }
 
